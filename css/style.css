@@ -9,5 +9,19 @@
     font-size: 0.8rem;
 }
 #logo-over{
-    width: 5%;
+    width: 70px;
+}
+#hero {
+    height: 600px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+#hero img {
+    width: 15%;
+}
+img[src*="img/lens"] {
+    width: 50%;
 }
