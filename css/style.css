@@ -1,3 +1,9 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    font-family: 'Cabin Condensed', sans-serif;
+}
 /*********************
 *** Header Pagina ****
 *********************/
@@ -19,13 +25,59 @@ img[src*="img/lens.svg"] {
     width: 50%;
 }
 /* Hero Pagina */
-#hero {
+#hero,
+#banner-1 {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-#hero img {
-    width: 250px;
+#hero img,
+#banner-2 [alt*="Logo PS+"],
+#banner-3 [alt*="Logo PS Now"] {
+    width: 300px;
 }
-
+/********************
+*** Corpo Pagina ****
+********************/
+.active {
+    border-bottom: 3px solid #00508e;
+}
+/* Sezioni Banner e bottoni*/
+#banner-1 {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+#banner-1 button {
+    background-color: #cd3d0f;
+}
+#banner-2 button,
+#banner-3 button {
+    background-color: #d9dadc;
+}
+#banner-2  {
+    background-color: #bebcbb;
+}
+#banner-3 {
+    background-color:#161c3b;
+}
+/***************
+***** Footer**** 
+***************/
+footer {
+    background-color:#00439C;
+}
+footer a:active,
+footer a {
+    color: #fff;
+    /* line-height: 2rem; */
+}
+footer img[alt*="PlayStation"] {
+    width: 150px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+img[alt*="Regione"] {
+    width: 20px;
+}
+footer img[alt*="Sony"] {
+    width: 200px;
+}
