@@ -1,3 +1,10 @@
+/*********************
+*** Header Pagina ****
+*********************/
+/* Nav-bar */
+#logo-over {
+    width: 70px;
+}
 .sub-link {
     list-style-type: disc;
     text-decoration: underline;
@@ -8,9 +15,10 @@
 .fa-angle-down {
     font-size: 0.8rem;
 }
-#logo-over{
-    width: 70px;
+img[src*="img/lens.svg"] {
+    width: 50%;
 }
+/* Hero Pagina */
 #hero {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
@@ -20,6 +28,4 @@
 #hero img {
     width: 250px;
 }
-img[src*="img/lens.svg"] {
-    width: 50%;
-}
+
