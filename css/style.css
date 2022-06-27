@@ -1,0 +1,13 @@
+.sub-link {
+    list-style-type: disc;
+    text-decoration: underline;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.fa-angle-down {
+    font-size: 0.8rem;
+}
+#logo-over{
+    width: 5%;
+}
