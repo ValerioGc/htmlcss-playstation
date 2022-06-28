@@ -77,7 +77,9 @@ img[src*="img/lens.svg"] {
     margin-top: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    border: 0 0 2px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 /* Hero e banner Pagina */
 #hero,
@@ -90,7 +92,7 @@ img[src*="img/lens.svg"] {
 #hero img,
 #banner-2 [alt*="Logo PS+"],
 #banner-3 [alt*="Logo PS Now"] {
-    width: 300px;
+    max-width: 300px;
 }
 /********************
 *** Corpo Pagina ****
@@ -119,21 +121,25 @@ img[src*="img/lens.svg"] {
 footer {
     background-color:var(--my-blue);
 }
-footer a:active,
 footer a {
     color: var(--bs-white);
+    text-decoration: none;
+}
+footer a:active,
+footer a:hover {
+    color: inherit;
+    text-decoration: underline;
 }
 footer img[alt*="PlayStation"] {
     width: 150px;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(77deg) brightness(103%) contrast(107%);
 }
 img[alt*="Regione"] {
     width: 20px;
 }
 footer img[alt*="Sony"] {
-    width: 200px;
+   width: 200px;
 }
-
 /******************** 
 **** Effetti Hover **
 ********************/
@@ -170,7 +176,7 @@ nav ul li a:focus .fa-angle-down {
 #listing > div > div:hover .my_border-2,
 #listing > div > div:hover .my_border {
     transition: all 0.1s linear 0.1s;
-    transform: translateY(-25%);
+    transform: translateY(-15%);
     border: 2px solid var(--my-blue)!important;
 }
 /* Hover sezione Accessori */
@@ -181,3 +187,4 @@ nav ul li a:focus .fa-angle-down {
 #accessori .my_border-b:hover img  {
     opacity: 1!important;
 }
+
