@@ -1,8 +1,32 @@
-::-webkit-scrollbar {
-    display: none;
+:root {
+    --my-blue: #00439c;
 }
+
 body {
     font-family: 'Cabin Condensed', sans-serif;
+    overflow-x: hidden;
+}
+/* Scroll-Bar */
+::-webkit-scrollbar {
+    width: 16px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    border: 0;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: #91befd34;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 3px 3px 6px grey;
+    background-color: #ebf8ff38;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #91befd 0%, #00639c 15%, var(--my-blue) 50%, #00639c 75%, #91befd 99%);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, var(--bs-white) 0%, var(--bs-black) 5%, var(--my-blue) 50%, var(--bs-black) 94%, var(--bs-white) 99%);
 }
 /*********************
 *** Header Pagina ****
@@ -40,9 +64,7 @@ img[src*="img/lens.svg"] {
 /********************
 *** Corpo Pagina ****
 ********************/
-.active {
-    border-bottom: 3px solid #00508e;
-}
+
 /* Sezioni Banner e bottoni*/
 #banner-1 {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -64,11 +86,11 @@ img[src*="img/lens.svg"] {
 ***** Footer**** 
 ***************/
 footer {
-    background-color:#00439C;
+    background-color:var(--my-blue);
 }
 footer a:active,
 footer a {
-    color: #fff;
+    color: var(--bs-white);
     /* line-height: 2rem; */
 }
 footer img[alt*="PlayStation"] {
@@ -80,4 +102,61 @@ img[alt*="Regione"] {
 }
 footer img[alt*="Sony"] {
     width: 200px;
+}
+
+/******************** 
+**** Effetti Hover **
+********************/
+/* Effetti Sezione Hero */
+
+#listing > div > div:hover .my_border-2,
+#listing > div > div:hover .my_border {
+    transition: all 0.1s linear 0.1s;
+    transform: translateY(-25%);
+    border: 2px solid var(--my-blue)!important;
+}
+
+/* Hover sezione Accessori */
+
+
+#accessori .my_border-b:hover  {
+    transition: all 0.1s linear 0.1s;
+    border-bottom: 3px solid var(--my-blue);
+}
+#accessori .my_border-b:hover img  {
+    opacity: 1!important;
+}
+
+
+
+/* Bordi hover */
+#listing .my_border {
+    border-color: var(--my-blue)!important;
+}
+#listing .my_border-2 {
+    border-color: var(--bs-white)!important;
+}
+#listing .my_border,
+#listing .my_border-2 {
+    border: 2px solid;
+}
+
+#accessori .my_border-b,
+#accessori .active-s2 {
+    border-bottom: 3px solid;
+}
+#accessori .active-s2 {
+    border-color: var(--my-blue);
+}
+#accessori .my_border-b {
+    border-color: var(--bs-white);
+}
+
+header {
+    /* background-color: var(--bs-white); */
+    box-shadow: 2px 2px 7px rgb(145, 145, 145);
+    z-index: 999;
+}
+#banner-sony-h {
+    background-color: var(--bs-black);
 }

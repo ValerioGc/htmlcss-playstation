@@ -18,12 +18,12 @@
     <!-- 
         Header Pagina 
     -->
-    <header>
+    <header class="position-sticky top-0 w-100">
         <!-- 
             Nav-Bar  
         -->
-        <div class="position-sticky top-0 w-100">
-            <div class="container-fluid bg-dark text-end">
+        <div>
+            <div class="container-fluid text-end" id="banner-sony-h">
                 <img class="py-2" id="logo-over" src="img/sony_logo.svg" alt="Logo Sony">
             </div>
             <nav class="navbar navbar-expand-lg bg-light">
@@ -274,10 +274,12 @@
                 </div>
             </nav>
         </div>
-        <!-- 
-            Hero Header 
-        -->
-        <div class="text-white container-fluid px-3 px-md-5 d-flex flex-column justify-content-center" id="hero">
+    </header>
+    <!-- 
+        Hero Header 
+    -->
+    <div class="container-fluid px-0">
+        <div class="text-white container-fluid px-3 px-md-5 d-flex flex-column justify-content-center pt-5" id="hero">
             <div class="mt-5 pt-5">
                 <img class="py-5 mt-5" src="img/returnal-hero-banner-logo.png" alt="Immagine Returnal">
                 <div class="mb-5 pb-5">
@@ -294,26 +296,26 @@
         <div class="container-fluid my-5" id="listing">
             <div class="row mx-4 g-3">
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img  class="img-fluid rounded-4" src="img/returnal-listing-thumb-01-ps5.jpg" alt="img Ratchet and clank">
+                    <img class="active-s img-fluid rounded-4 p-1 my_border" src="img/returnal-listing-thumb-01-ps5.jpg" alt="img Ratchet and clank">
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img  class="img-fluid rounded-4" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="img Ratchet and clank">
+                    <img  class="img-fluid rounded-4 p-1 my_border-2" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="img Ratchet and clank">
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img  class="img-fluid rounded-4" src="img/returnal-listing-thumb-01-ps5.jpg" alt="img Ratchet and clank">
+                    <img  class="img-fluid rounded-4 p-1 my_border-2" src="img/returnal-listing-thumb-01-ps5.jpg" alt="img Ratchet and clank">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2 cont">
+                    <img  class="img-fluid rounded-4 p-1 my_border-2" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="img Ratchet and clank">
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img  class="img-fluid rounded-4" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="img Ratchet and clank">
+                    <img  class="img-fluid rounded-4 p-1 my_border-2" src="img/returnal-listing-thumb-01-ps5.jpg" alt="img returnal">
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img  class="img-fluid rounded-4" src="img/returnal-listing-thumb-01-ps5.jpg" alt="img returnal">
-                </div>
-                <div class="col-6 col-sm-4 col-lg-2">
-                    <img  class="img-fluid rounded-4" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="img Ratchet and clank">
+                    <img  class="img-fluid rounded-4 p-1 my_border-2" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="img Ratchet and clank">
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <main>
         <!-- 
             Sezione Presentazione console 
@@ -335,25 +337,28 @@
                         <img class="img-fluid" src="img/playstation-5-thumb.png" alt="Playstation 5">
                     </div>
                 </div>
-                <div class="row justify-content-around mx-5 mb-5 px-2 text-center">
-                    <div class="col-2 px-5 active">
+                <!-- 
+                    Sezione Accessori 
+                -->
+                <div id="accessori" class="row justify-content-around mx-5 mb-5 px-2 text-center">
+                    <div class="col-2 px-5 active-s2">
                         <img class="img-fluid" src="img/playstation-5-thumb.png" alt="PlayStation 5">
                         <p class="mt-5 mb-0">Console PS5</p>
                     </div>
-                    <div class="col-2 px-5">
-                        <img class="img-fluid" src="img/joypad-thumb.png" alt="Controller DualSense">
+                    <div class="col-2 px-5 my_border-b">
+                        <img class="img-fluid opacity-50" src="img/joypad-thumb.png" alt="Controller DualSense">
                         <p class="mt-5 mb-0">Controller wireless DualSense&trade;</p>
                     </div>
-                    <div class="col-2 px-5">
-                        <img class="img-fluid" src="img/headset-thumb.png" alt="Cuffie Pulse 3">
+                    <div class="col-2 px-5 my_border-b">
+                        <img class="img-fluid opacity-50" src="img/headset-thumb.png" alt="Cuffie Pulse 3">
                         <p class="my-5 mb-0">Cuffie wireless con microfono PULSE 3&trade;</p>
                     </div>
-                    <div class="col-2 px-5">
-                        <img class="img-fluid" src="img/remote-thumb.png" alt="Telecomando Remoto">
+                    <div class="col-2 px-5 my_border-b">
+                        <img class="img-fluid opacity-50" src="img/remote-thumb.png" alt="Telecomando Remoto">
                         <p class="my-5 mb-0">Telecomando Media</p>
                     </div>
-                    <div class="col-2 px-5">
-                        <img class="img-fluid" src="img/camera-thumb.jpg" alt="Telecamera HD">
+                    <div class="col-2 px-5 my_border-b">
+                        <img class="img-fluid opacity-50" src="img/camera-thumb.jpg" alt="Telecamera HD">
                         <p class="my-5 mb-0">Telecamera HD</p>
                     </div>
                 </div>
@@ -532,17 +537,17 @@
         -->
         <section class="text-center my-5 pb-5">
             <h3 class="py-5">Seguici sui social media</h3>
-            <div class="row justify-content-center">
-                <div class="col-1">
+            <div class="row justify-content-center gy-4">
+                <div class="col-5 col-md-2 col-xl-1">
                     <img class="img-fluid" src="img/twitter.jpg" alt="Logo Twitter">
                 </div>
-                <div class="col-1">
+                <div class="col-5 col-md-2 col-xl-1">
                     <img class="img-fluid" src="img/facebook.jpg" alt="Logo Facebook">
                 </div>
-                <div class="col-1">
+                <div class="col-5 col-md-2 col-xl-1">
                     <img class="img-fluid" src="img/instagram.jpg" alt="Logo Instagram">
                 </div>
-                <div class="col-1">
+                <div class="col-5 col-md-2 col-xl-1">
                     <img class="img-fluid" src="img/youtube.png" alt="Logo Youtube">
                 </div>
             </div>
