@@ -13,10 +13,10 @@ body {
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-thumb {
     border-radius: 30px;
-    border: 0;
 }
-::-webkit-scrollbar-track-piece {
+::-webkit-scrollbar-track {
     background-color: #91befd34;
+    border: 2px solid var(--my-blue);
 }
 ::-webkit-scrollbar-track {
     box-shadow: inset 3px 3px 6px grey;
@@ -31,6 +31,13 @@ body {
 /*********************
 *** Header Pagina ****
 *********************/
+header {
+    box-shadow: 2px 2px 7px #919191;
+    z-index: 999;
+}
+#banner-sony-h {
+    background-color: var(--bs-black);
+}
 /* Nav-bar */
 #logo-over {
     width: 70px;
@@ -152,11 +159,3 @@ footer img[alt*="Sony"] {
     border-color: var(--bs-white);
 }
 
-header {
-    /* background-color: var(--bs-white); */
-    box-shadow: 2px 2px 7px rgb(145, 145, 145);
-    z-index: 999;
-}
-#banner-sony-h {
-    background-color: var(--bs-black);
-}
