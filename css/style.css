@@ -101,9 +101,6 @@ img[src*="img/lens.svg"] {
 #banner-1 {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
-#banner-1 button {
-    background-color: #cd3d0f;
-}
 #banner-2 button,
 #banner-3 button {
     background-color: #d9dadc;
