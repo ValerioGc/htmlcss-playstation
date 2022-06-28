@@ -97,7 +97,6 @@ img[src*="img/lens.svg"] {
 /********************
 *** Corpo Pagina ****
 ********************/
-
 /* Sezioni Banner e bottoni*/
 #banner-1 {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -187,4 +186,3 @@ nav ul li a:focus .fa-angle-down {
 #accessori .my_border-b:hover img  {
     opacity: 1!important;
 }
-
