@@ -17,7 +17,6 @@ body {
     position: fixed;
     top: 106px;
     bottom: 0;
-    overflow-y: auto;
     overflow-x: hidden;
 }
 /* Scroll-Bar */
@@ -68,7 +67,6 @@ header {
 img[src*="img/lens.svg"] {
     width: 50%;
 }
-
 /* Menu Dropdwon */
 .dropdown {
     position: static;
