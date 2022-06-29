@@ -1,5 +1,13 @@
 :root {
     --my-blue: #00439c;
+    --my-blue-light: #00639c;
+    --my-grey: #727272;
+}
+.my_grey {
+    color: var(--my-grey);
+}
+.my_blk {
+    color: var(--bs-black);
 }
 body {
     font-family: 'Cabin Condensed', sans-serif;
@@ -29,7 +37,7 @@ body {
     background-color: #ebf8ff38;
 }
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #91befd 0%, #00639c 15%, var(--my-blue) 50%, #00639c 75%, #91befd 99%);
+    background: linear-gradient(180deg, #91befd 0%, var(--my-blue-light) 15%, var(--my-blue) 50%, var(--my-blue-light) 75%, #91befd 99%);
 }
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(180deg, var(--bs-white) 0%, var(--bs-black) 5%, var(--my-blue) 50%, var(--bs-black) 94%, var(--bs-white) 99%);
@@ -38,7 +46,6 @@ body {
 *** Header Pagina ****
 *********************/
 header {
-    box-shadow: 2px 2px 7px #6f6f6f;
     z-index: 999;
     background-color: var(--bs-white);
 }
@@ -62,6 +69,7 @@ header {
 img[src*="img/lens.svg"] {
     width: 50%;
 }
+
 /* Menu Dropdwon */
 .dropdown {
     position: static;
@@ -70,7 +78,7 @@ img[src*="img/lens.svg"] {
     width: 100vw;
     text-align: center;
 }
-.dropdown-menu>li {
+.dropdown-menu > li {
     display: block;
 }
 .dropdown-menu.show {
@@ -146,6 +154,11 @@ nav ul li a:focus .fa-angle-down {
     color: var(--my-blue) !important;
     font-weight: bold;
 }
+img[src*="img/lens.svg"]:hover {
+    transform: scale(1.3);
+    filter: invert(13%) sepia(82%) saturate(3671%) hue-rotate(207deg) brightness(97%) contrast(101%);
+    transition: all 0.1s linear 0.1s;
+}
 /* Bordi hover */
 #listing .my_border,
 #listing .my_border-2 {
@@ -173,6 +186,7 @@ nav ul li a:focus .fa-angle-down {
 #listing > div > div:hover .my_border {
     transition: all 0.1s linear 0.1s;
     transform: translateY(-15%);
+    filter: sepia(70%) grayscale(20%);
     border: 2px solid var(--my-blue)!important;
 }
 /* Hover sezione Accessori */
@@ -183,3 +197,17 @@ nav ul li a:focus .fa-angle-down {
 #accessori .my_border-b:hover img  {
     opacity: 1!important;
 }
+/* BOX-SHADOW */
+#listing img {
+    box-shadow: 3px 4px 12px 0px var(--bs-black);
+}
+header {
+    box-shadow: 2px 2px 7px var(--my-grey);
+    z-index: 999;
+    background-color: var(--bs-white);
+}
+
+
+/* .he:hover a {
+    text-decoration: underline;
+} */
