@@ -18,7 +18,7 @@
 
 ## *_Preview:_*
 
-![Preview 1a](/previews/preview-playstation.gif)
+![Preview 1a](/previews/preview-ps.gif)
 ![Preview 1b](/previews/ps-thumbnails.png)
 
 
