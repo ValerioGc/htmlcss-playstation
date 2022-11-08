@@ -30,7 +30,7 @@
   
   <br/>
 
-  <img src="/previews/preview-playstation.png" alt="preview1" /> 
+  <img src="/previews/preview-ps.png" alt="preview1" /> 
   <img src="/previews/preview-playstation2.png" alt="preview2" /> 
   <img src="/previews/preview-playstation3.png" alt="preview3" /> 
   <img src="/previews/preview-playstation4.png" alt="preview4" />  
