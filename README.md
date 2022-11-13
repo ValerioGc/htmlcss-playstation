@@ -10,7 +10,7 @@
 
 ## *_Used Languages:_*
 
-|<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" width="36" height="36" alt="HTML5" />|<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="36" height="36" align="center" alt="CSS3" /> |  <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="36" height="36" align="center" alt="Bootstrap">|
+|<img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/skills/html.svg" width="36" height="36" alt="HTML5" />|<img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/skills/css.svg" width="36" height="36" align="center" alt="CSS3" /> |  <img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/frameworks/bootstrap.svg" width="36" height="36" align="center" alt="Bootstrap">|
 |--|--|--|
 | [**HTML**](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) | [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS) | [**Bootstrap 5**](https://getbootstrap.com) |
 
@@ -25,12 +25,12 @@
 --------
 
 
-<details>  
+<details align="center">  
   <summary><strong><ins> View Full size previews :arrow_heading_down: </summary></strong></ins>
   
   <br/>
 
-  <img src="/previews/preview-ps.png" alt="preview1" /> 
+  <img src="/previews/preview-playstation.png" alt="preview1" /> 
   <img src="/previews/preview-playstation2.png" alt="preview2" /> 
   <img src="/previews/preview-playstation3.png" alt="preview3" /> 
   <img src="/previews/preview-playstation4.png" alt="preview4" />  
